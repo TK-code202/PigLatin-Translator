@@ -97,19 +97,7 @@ function removePunctuation(text) {
 
 
 
- // function sentenceConverter (text) {
-//     if (text.trim().length === 0) {
-//         return "";
-//     }
 
-//     const cleanedArray = spaceRemover(removePunctuation(text));
-//     const textArray = cleanedArray.toLowerCase().split(" ");
-//    const finalSentence = textArray.forEach(function(element) {
-//         return swapLetters(element);
-//     });
-
-//     return finalSentence;
-// }
 
 
 
