@@ -1,7 +1,5 @@
 //Business Logic
 
-
-
 // function swapLetters (word) {
 //     const vowels = ["a", "e", "i", "o", "u"];
 //     if (vowels.includes(word.charAt(0)) ) {
@@ -13,8 +11,6 @@
 //         return text.concat(word.charAt(0)).concat("ay").join("");
 //     }
 //  }
-
-
 
 function removePunctuation(text) {
     const punctuationMarks = ['.', ',' , ';', ':', '!', '?', '-', '_', '"', '(', ')', '[', ']', '{', '}', '<', '>', "'", "@", "#", "%"];
@@ -85,23 +81,11 @@ function removePunctuation(text) {
  $(document).ready(function(){
     $("#formOne").submit(function(event){
         const passage = $("#text-passage").val();
-
         const result = translateToPigLatin(passage);
         $("#translation").html(result);
 
         event.preventDefault();
     });
  });
-
-
-
-
-
-
-
-
-
-
-
 
 
