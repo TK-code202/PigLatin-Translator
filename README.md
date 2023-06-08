@@ -41,6 +41,7 @@ _The application translates a passage of text inputted into pig latin by adding 
 * _Code: pigLatin("quick");_
 * _Expected Output: "ickquay"_
 
+
 4 _Test: "It will remove the first letter of words and add the letter and 'ay' to the end of words that begin with a consonant and 'qu'."_
 * _Code: pigLatin("squeal");_
 * _Expected Output: "quealsay"_
